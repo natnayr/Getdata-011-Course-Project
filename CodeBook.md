@@ -14,4 +14,10 @@ The script `run_analysis.R` performs roughly step-by-step from 1-5 as detailed i
 
 ## Variables
 
-* 
+* `x_train`, `y_train`, `x_test`, `y_test`, `subject_train` and `subject_test` contain the data from the downloaded files. 
+* `x_all`, `y_all` and `subject_all` are the combined dataframes of TEST and TRAINING data.
+* `features` contains all the column names for the `x_all` dataset.
+* `mean_and_std` is the indices vector of all columns of mean and standard deviation data
+* `activity_labels` is the vector containing all 6 activity descriptions
+* `everything` is the entire data set up to Step 4
+* `tidy_data_mean` is the reshaped dataset after ddply.
