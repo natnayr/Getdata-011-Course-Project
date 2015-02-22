@@ -2,7 +2,7 @@
 
 This repo hosts the files relating to the project in the Johns Hopkins Coursera Course: Getting and Cleaning Data.
 
-Dataset obtained are from the the [Human Activity Recognition Using Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) - [Data](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+Dataset obtained are from the the [Human Activity Recognition Using Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) - [DATASET-ZIP](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
 
 ## Project Goals
@@ -22,4 +22,4 @@ Create one R script called run_analysis.R that does the following:
 
 * `run_analysis.R` is the R Programming script and contains all the code required to perform the analysis
 
-* `activity_final_data.txt` is the Step 5 Output data 
+* `activity_final_data.txt` is the Step 5 write.table() output tidy dataset, with default " "(space) separator 
